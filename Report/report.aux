@@ -1,0 +1,88 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand*\HyPL@Entry[1]{}
+\citation{PINN}
+\citation{lecun2015deep}
+\citation{yu2017deep}
+\citation{DGM}
+\citation{PINN}
+\citation{1707.02568}
+\citation{weinan2017deep}
+\citation{beck2017machine}
+\citation{PINN}
+\HyPL@Entry{0<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {1}引言}{1}{section.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Deep Galerkin Method}{2}{section.2}}
+\newlabel{approximation}{{2}{2}{Deep Galerkin Method}{equation.2.2}{}}
+\newlabel{DGM loss}{{3}{2}{Deep Galerkin Method}{equation.2.3}{}}
+\newlabel{minimize}{{4}{2}{Deep Galerkin Method}{equation.2.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Poisson equation变分方程推导}{2}{subsection.2.1}}
+\citation{ResNet}
+\citation{PINN}
+\citation{LBFGS}
+\newlabel{eq1}{{5}{3}{Poisson equation变分方程推导}{equation.2.5}{}}
+\newlabel{Poisson}{{6}{3}{Poisson equation变分方程推导}{equation.2.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}DNN网络结构}{3}{subsection.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Monta carlo积分近似}{3}{subsection.2.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Network Structure of Deep Galerkin method}}{4}{figure.1}}
+\newlabel{architecture}{{1}{4}{Network Structure of Deep Galerkin method}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}优化算法}{4}{subsection.2.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}求解Poisson方程}{4}{section.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}example 1}{5}{subsection.3.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 泊松方程的解.左边: 真解, 右边: 神经网络近似解}}{5}{figure.2}}
+\newlabel{解景观}{{2}{5}{泊松方程的解.左边: 真解, 右边: 神经网络近似解}{figure.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 左边：误差图 $u_{real} - u_{NN}$ 右边：损失函数下降曲线图}}{5}{figure.3}}
+\newlabel{误差图和Loss图}{{3}{5}{左边：误差图 $u_{real} - u_{NN}$ 右边：损失函数下降曲线图}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Relative Loss of Different $\beta $ with Poisson Equation: error定义见\ref  {relative L2 error}}}{5}{table.1}}
+\newlabel{比较不同系数}{{1}{5}{Relative Loss of Different $\beta $ with Poisson Equation: error定义见\ref {relative L2 error}}{table.1}{}}
+\newlabel{relative L2 error}{{8}{5}{example 1}{equation.3.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Penalty free的改进方案}{6}{subsection.3.2}}
+\newlabel{partial loss}{{9}{6}{Penalty free的改进方案}{equation.3.9}{}}
+\newlabel{new trial fun}{{10}{6}{Penalty free的改进方案}{equation.3.10}{}}
+\newlabel{int loss}{{11}{6}{Penalty free的改进方案}{equation.3.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces 左图：使用\ref  {partial loss}的$h$与真解的误差（没有采用正则项）， 右图：使用\ref  {new partial loss}的$h$与真解的误差（采用了正则项）.可以看到是用了正则项后的h与真解已经很接近了,这会大大降低第二步优化的难度.}}{7}{figure.4}}
+\newlabel{h_NN}{{4}{7}{左图：使用\ref {partial loss}的$h$与真解的误差（没有采用正则项）， 右图：使用\ref {new partial loss}的$h$与真解的误差（采用了正则项）.可以看到是用了正则项后的h与真解已经很接近了,这会大大降低第二步优化的难度}{figure.4}{}}
+\newlabel{new partial loss}{{12}{7}{Penalty free的改进方案}{equation.3.12}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces 分步优化的参数设置}}{7}{table.2}}
+\newlabel{参数配置}{{2}{7}{分步优化的参数设置}{table.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces 改进结果对比}}{7}{table.3}}
+\newlabel{改进 vs 不改进}{{3}{7}{改进结果对比}{table.3}{}}
+\citation{spectral}
+\citation{PINN}
+\citation{NS-PINN}
+\@writefile{toc}{\contentsline {section}{\numberline {4}求解Burgers方程}{8}{section.4}}
+\newlabel{burgers}{{13}{8}{求解Burgers方程}{equation.4.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces NN solution vs real solution,相对$L_2$误差为 $0.9\%$,相对$L_2$误差定义见\ref  {relative L2 error}}}{8}{figure.5}}
+\newlabel{BG}{{5}{8}{NN solution vs real solution,相对$L_2$误差为 $0.9\%$,相对$L_2$误差定义见\ref {relative L2 error}}{figure.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces 不同内部采样数的结果对比}}{8}{table.4}}
+\newlabel{Burgers结果对比}{{4}{8}{不同内部采样数的结果对比}{table.4}{}}
+\bibdata{reference}
+\bibcite{spectral}{{1}{}{{}}{{}}}
+\bibcite{beck2017machine}{{2}{}{{}}{{}}}
+\bibcite{1707.02568}{{3}{}{{}}{{}}}
+\bibcite{ResNet}{{4}{}{{}}{{}}}
+\bibcite{NS-PINN}{{5}{}{{}}{{}}}
+\bibcite{lecun2015deep}{{6}{}{{}}{{}}}
+\bibcite{LBFGS}{{7}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}结论和展望}{9}{section.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}附录}{9}{section.6}}
+\bibcite{PINN}{{8}{}{{}}{{}}}
+\bibcite{DGM}{{9}{}{{}}{{}}}
+\bibcite{weinan2017deep}{{10}{}{{}}{{}}}
+\bibcite{yu2017deep}{{11}{}{{}}{{}}}
+\bibstyle{plain}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers

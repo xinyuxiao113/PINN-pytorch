@@ -1,0 +1,69 @@
+\begin{thebibliography}{10}
+
+\bibitem{spectral}
+Cea Basdevant, M~Deville, P~Haldenwang, JM~Lacroix, J~Ouazzani, R~Peyret, Paolo
+  Orlandi, and AT~Patera.
+\newblock Spectral and finite difference solutions of the burgers equation.
+\newblock {\em Computers \& fluids}, 14(1):23--41, 1986.
+
+\bibitem{beck2017machine}
+Christian Beck, Arnulf Jentzen, et~al.
+\newblock Machine learning approximation algorithms for high-dimensional fully
+  nonlinear partial differential equations and second-order backward stochastic
+  differential equations.
+\newblock {\em arXiv preprint arXiv:1709.05963}, 2017.
+
+\bibitem{1707.02568}
+Jiequn Han, Arnulf Jentzen, and E~Weinan.
+\newblock Solving high-dimensional partial differential equations using deep
+  learning.
+\newblock {\em arXiv preprint arXiv:1707.02568}, 2017.
+
+\bibitem{ResNet}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition, 2015.
+
+\bibitem{NS-PINN}
+Xiaowei Jin, Shengze Cai, Hui Li, and George~Em Karniadakis.
+\newblock Nsfnets (navier-stokes flow nets): Physics-informed neural networks
+  for the incompressible navier-stokes equations.
+\newblock {\em Journal of Computational Physics}, 426:109951, Feb 2021.
+
+\bibitem{lecun2015deep}
+Yann LeCun, Yoshua Bengio, and Geoffrey Hinton.
+\newblock Deep learning.
+\newblock {\em nature}, 521(7553):436, 2015.
+
+\bibitem{LBFGS}
+Dong~C Liu and Jorge Nocedal.
+\newblock On the limited memory bfgs method for large scale optimization.
+\newblock {\em Mathematical programming}, 45(1):503--528, 1989.
+
+\bibitem{PINN}
+Maziar Raissi, Paris Perdikaris, and George~E Karniadakis.
+\newblock Physics-informed neural networks: A deep learning framework for
+  solving forward and inverse problems involving nonlinear partial differential
+  equations.
+\newblock {\em Journal of Computational Physics}, 378:686--707, 2019.
+
+\bibitem{DGM}
+Justin Sirignano and Konstantinos Spiliopoulos.
+\newblock Dgm: A deep learning algorithm for solving partial differential
+  equations.
+\newblock {\em Journal of Computational Physics}, 375:1339–1364, Dec 2018.
+
+\bibitem{weinan2017deep}
+E~Weinan, Jiequn Han, and Arnulf Jentzen.
+\newblock Deep learning-based numerical methods for high-dimensional parabolic
+  partial differential equations and backward stochastic differential
+  equations.
+\newblock {\em Communications in Mathematics and Statistics}, 5(4):349--380,
+  2017.
+
+\bibitem{yu2017deep}
+Bing Yu et~al.
+\newblock The deep ritz method: A deep learning-based numerical algorithm for
+  solving variational problems.
+\newblock {\em arXiv preprint arXiv:1710.00211}, 2017.
+
+\end{thebibliography}

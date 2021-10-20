@@ -1,0 +1,264 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Compare}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1d6541fa912cde87db70ad0c5cc62a6b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jingrun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3943dbdcbcb6d6cc1861ad4c6102bea5}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7f12ac0a30da247fbf8b634fb85aa973}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Keke},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5101d288a3a62e6892c4348449423109}
+      \strng{fullhash}{5101d288a3a62e6892c4348449423109}
+      \strng{bibnamehash}{5101d288a3a62e6892c4348449423109}
+      \strng{authorbibnamehash}{5101d288a3a62e6892c4348449423109}
+      \strng{authornamehash}{5101d288a3a62e6892c4348449423109}
+      \strng{authorfullhash}{5101d288a3a62e6892c4348449423109}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2707-8523}
+      \field{journaltitle}{Communications in Mathematical Research}
+      \field{number}{3}
+      \field{title}{A Comparison Study of Deep Galerkin Method and Deep Ritz Method for Elliptic Problems with Different Boundary Conditions}
+      \field{volume}{36}
+      \field{year}{2020}
+      \field{pages}{354\bibrangedash 376}
+      \range{pages}{23}
+      \verb{doi}
+      \verb https://doi.org/10.4208/cmr.2020-0051
+      \endverb
+      \verb{urlraw}
+      \verb http://global-sci.org/intro/article_detail/cmr/17853.html
+      \endverb
+      \verb{url}
+      \verb http://global-sci.org/intro/article_detail/cmr/17853.html
+      \endverb
+    \endentry
+    \entry{DeepRitz}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=268e9715905f2ab3cb20df636d3750c1}{%
+           family={E},
+           familyi={E\bibinitperiod},
+           given={Weinan},
+           giveni={W\bibinitperiod}}}%
+        {{hash=fc6283cba40337baef29625ca7f4d236}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{54ae112f7673f3d33575735aeb7bc816}
+      \strng{fullhash}{54ae112f7673f3d33575735aeb7bc816}
+      \strng{bibnamehash}{54ae112f7673f3d33575735aeb7bc816}
+      \strng{authorbibnamehash}{54ae112f7673f3d33575735aeb7bc816}
+      \strng{authornamehash}{54ae112f7673f3d33575735aeb7bc816}
+      \strng{authorfullhash}{54ae112f7673f3d33575735aeb7bc816}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{The Deep Ritz method: A deep learning-based numerical algorithm for solving variational problems}
+      \field{year}{2017}
+      \verb{eprint}
+      \verb 1710.00211
+      \endverb
+    \endentry
+    \entry{PINN}{article}{}
+      \name{author}{3}{}{%
+        {{hash=95a17c39168b9e6b8812f207b4e036c1}{%
+           family={Raissi},
+           familyi={R\bibinitperiod},
+           given={Maziar},
+           giveni={M\bibinitperiod}}}%
+        {{hash=197d71332633e07aa578718628fdc405}{%
+           family={Perdikaris},
+           familyi={P\bibinitperiod},
+           given={Paris},
+           giveni={P\bibinitperiod}}}%
+        {{hash=813dddce5daa1b352a4f57685967fd2f}{%
+           family={Karniadakis},
+           familyi={K\bibinitperiod},
+           given={George\bibnamedelima E},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{75cc6c76a37dc4ee147ba7e23b38a0f9}
+      \strng{fullhash}{75cc6c76a37dc4ee147ba7e23b38a0f9}
+      \strng{bibnamehash}{75cc6c76a37dc4ee147ba7e23b38a0f9}
+      \strng{authorbibnamehash}{75cc6c76a37dc4ee147ba7e23b38a0f9}
+      \strng{authornamehash}{75cc6c76a37dc4ee147ba7e23b38a0f9}
+      \strng{authorfullhash}{75cc6c76a37dc4ee147ba7e23b38a0f9}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computational Physics}
+      \field{title}{Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations}
+      \field{volume}{378}
+      \field{year}{2019}
+      \field{pages}{686\bibrangedash 707}
+      \range{pages}{22}
+    \endentry
+    \entry{Penalty_free}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3c1d5f348383309e7de0fd14b71b69c4}{%
+           family={Sheng},
+           familyi={S\bibinitperiod},
+           given={Hailong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=454ea16c1c785e565fba3d4d6241e59b}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{6817a616a96dc5c0601dd349d1adfaa5}
+      \strng{fullhash}{6817a616a96dc5c0601dd349d1adfaa5}
+      \strng{bibnamehash}{6817a616a96dc5c0601dd349d1adfaa5}
+      \strng{authorbibnamehash}{6817a616a96dc5c0601dd349d1adfaa5}
+      \strng{authornamehash}{6817a616a96dc5c0601dd349d1adfaa5}
+      \strng{authorfullhash}{6817a616a96dc5c0601dd349d1adfaa5}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-9991}
+      \field{journaltitle}{Journal of Computational Physics}
+      \field{month}{3}
+      \field{title}{PFNN: A penalty-free neural network method for solving a class of second-order boundary-value problems on complex geometries}
+      \field{volume}{428}
+      \field{year}{2021}
+      \field{pages}{110085}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jcp.2020.110085
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.jcp.2020.110085
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jcp.2020.110085
+      \endverb
+    \endentry
+    \entry{DGM}{article}{}
+      \name{author}{2}{}{%
+        {{hash=63a950b98d85daffb2acb228fc44a30b}{%
+           family={Sirignano},
+           familyi={S\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b3f57aca002dd1e7484cf81299998414}{%
+           family={Spiliopoulos},
+           familyi={S\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{fb5add8979e6ca053be0b10341d44fe1}
+      \strng{fullhash}{fb5add8979e6ca053be0b10341d44fe1}
+      \strng{bibnamehash}{fb5add8979e6ca053be0b10341d44fe1}
+      \strng{authorbibnamehash}{fb5add8979e6ca053be0b10341d44fe1}
+      \strng{authornamehash}{fb5add8979e6ca053be0b10341d44fe1}
+      \strng{authorfullhash}{fb5add8979e6ca053be0b10341d44fe1}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-9991}
+      \field{journaltitle}{Journal of Computational Physics}
+      \field{month}{12}
+      \field{title}{DGM: A deep learning algorithm for solving partial differential equations}
+      \field{volume}{375}
+      \field{year}{2018}
+      \field{pages}{1339\bibrangedash 1364}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1016/j.jcp.2018.08.029
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.jcp.2018.08.029
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.jcp.2018.08.029
+      \endverb
+    \endentry
+    \entry{FT_embedding}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=15db674b3efc6848f40514aa0034717a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Sifan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=750f950ac7e7c6eb92db4793d9c16a0d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hanwen},
+           giveni={H\bibinitperiod}}}%
+        {{hash=197d71332633e07aa578718628fdc405}{%
+           family={Perdikaris},
+           familyi={P\bibinitperiod},
+           given={Paris},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5877c4af378c998dc46786641aefe024}
+      \strng{fullhash}{5877c4af378c998dc46786641aefe024}
+      \strng{bibnamehash}{5877c4af378c998dc46786641aefe024}
+      \strng{authorbibnamehash}{5877c4af378c998dc46786641aefe024}
+      \strng{authornamehash}{5877c4af378c998dc46786641aefe024}
+      \strng{authorfullhash}{5877c4af378c998dc46786641aefe024}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{On the eigenvector bias of Fourier feature networks: From regression to solving multi-scale PDEs with physics-informed neural networks}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2012.10047
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

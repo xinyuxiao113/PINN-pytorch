@@ -1,0 +1,18 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'report.blg'
+[59] biber-darwin:313> INFO - === Wed Jun 16, 2021, 02:00:27
+[86] Biber.pm:371> INFO - Reading 'report.bcf'
+[170] Biber.pm:857> INFO - Found 6 citekeys in bib section 0
+[182] Biber.pm:3976> INFO - Processing section 0
+[203] Biber.pm:4136> INFO - Looking for bibtex format file 'mybib.bib' for section 0
+[206] bibtex.pm:1500> INFO - LaTeX decoding ...
+[219] bibtex.pm:1316> INFO - Found BibTeX data source 'mybib.bib'
+[226] Utils.pm:193> WARN - month field 'Dec' in entry 'DGM' is not an integer - this will probably not sort properly.
+[244] Utils.pm:193> WARN - month field 'Mar' in entry 'Penalty_free' is not an integer - this will probably not sort properly.
+[262] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[262] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[262] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[262] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[278] bbl.pm:617> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[281] bbl.pm:720> INFO - Output to report.bbl
+[281] Biber.pm:110> INFO - WARNINGS: 2
